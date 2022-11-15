@@ -139,7 +139,7 @@ class BenchmarkRunner(object):
                             [positions[end_index].location.x, positions[end_index].location.y])
 
                     time_out = experiment_suite.calculate_time_out(
-                        self._get_shortest_path(positions[start_index], positions[end_index]))  * 1.5
+                        self._get_shortest_path(positions[start_index], positions[end_index]))
 
                     print("time_out:", time_out)
 
