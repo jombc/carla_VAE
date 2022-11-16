@@ -10,15 +10,17 @@ The framework has two sub-modules
 
 ### Dependencies
 * Major dependencies
- 1. Python 3.7
- 2. Pytorch 1.6
- 3. cuda 10.2
+  1. Python 3.7
+  2. Pytorch 1.6
+  3. cuda 10.2
  
 ### Installing
-* Recommend importing an exported Anaconda environment (torch.yaml)
+* Importing an uploaded Anaconda environment (torch.yaml) is recommended
+
+### Database Acquisition
+1. 
 
 ### Executing program
-
 * How to run the program
 * Step-by-step bullets
 ```
