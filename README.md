@@ -28,12 +28,14 @@ This repository contains the following modules
 * First Stage: Training cycle-consistent VAE 
  1. Collecting pair images using CARLA datacollector
  2. Move to a folder named Disentanglement_VAE
- 3. Modify the database path variables (train_pair, eval_pair) in train_CycleVAE_lusr_v2.py
+ 3. Modify the database path variables (train_pair, eval_pair) in train_CycleVAE_lusr_v2.py 
  4. Run below command
 ```
 python train_CycleVAE_lusr_v2.py --id="ID for this training"
 ```
+ (Download a pre-trained weight file from [here](https://drive.google.com/file/d/1RtiwGAgRMl5Lpd5fyAA7cQbODWOIBqD6/view?usp=sharing)
  5. The trained weights are saved at save_models/id/id.pth
+ 
 
 * Second Stage: Training autonomous driving framework
  1. Collecting driving dataset using CARLA datacollector
@@ -42,4 +44,5 @@ python train_CycleVAE_lusr_v2.py --id="ID for this training"
 ```
 python main.py --id="ID for this training" --train-dir="Training Dataset Path" --eval-dir="Evaluating Dataset Path" --vae-model-dir="Weight path trained by train_CycleVAE_lusr_v2.py"
 ```
+ (Download a pre-trained weight file from [here](https://drive.google.com/file/d/1yHsSwZA1gGw0iHow4aDhrt3bTaExgfzN/view?usp=sharing)
 4. Evaluating using the CARLA benchmark
