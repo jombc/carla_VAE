@@ -1,6 +1,7 @@
 # Vision based End-to-end autonomous driving using Cycle-consistent VAE
 The vision based end-to-end autonomous driving framework for CARLA 0.8.4 benchmarks.
-The framework has two sub-modules
+
+This repository contains the following modules
  1. Disentanglement_VAE: To disentangling domain-specific feature and domain-general feature from pair images using Cycle-consistent VAE.
  2. starlab_2022: To predict the action values to drive an ego-vehicle to the destination based on the Resnet backbone, 
                                   domain-general feature, and conditional imitation learning.
@@ -18,7 +19,7 @@ The framework has two sub-modules
 * Importing an uploaded Anaconda environment (torch.yaml) is recommended
 
 ### Database Acquisition
-1. 
+* Method for acquisition of driving data on CARLA simulator is described in this [repository](https://github.com/carla-simulator/data-collector).
 
 ### Executing program
 * How to run the program
