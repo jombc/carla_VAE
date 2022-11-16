@@ -38,8 +38,7 @@ if __name__ == '__main__':
     argparser.add_argument(
         '--host',
         metavar='H',
-        # default='localhost',
-        default='141.223.12.40',
+        default='localhost',
         help='IP of the host server (default: localhost)')
     argparser.add_argument(
         '-p', '--port',
@@ -80,9 +79,7 @@ if __name__ == '__main__':
     argparser.add_argument(
         '--model-path',
         metavar='P',
-        # default='/home/kimna/PytorchWorkspace/CARLA_starlab/starlab_2022/save_models/training_best.pth',
-        default='/home/kimna/PytorchWorkspace/CARLA_starlab/starlab_2022/save_models/training_210621_best.pth',
-        # default='/home/kimna/PytorchWorkspace/CARLA_starlab/starlab_2022/save_models/training_210621/5_training_210621.pth',
+        default='starlab_2022/save_models/training_210621_best.pth',
         type=str,
         help='torch imitation learning model path (relative in model dir)'
     )
@@ -102,7 +99,7 @@ if __name__ == '__main__':
     argparser.add_argument('--class-latent-size', default=128, type=int)
     argparser.add_argument('--content-latent-size', default=128, type=int)
     argparser.add_argument('--vae-model-dir',
-                        default="/home/kimna/PytorchWorkspace/CARLA_starlab/Disentanglement_VAE/save_models/training_v2/48_training_v2.pth",
+                        default="CARLA_starlab/Disentanglement_VAE/save_models/training_v2/48_training_v2.pth",
                         type=str, metavar='PATH')
 
     args = argparser.parse_args()
