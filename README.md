@@ -25,43 +25,16 @@ This repository contains the following modules
 * You can download from this [document](https://carla.org/2018/04/23/release-0.8.2/).
 
 ### Executing program
-* How to run the program
-* Step-by-step bullets
+* First Stage: Training cycle-consistent VAE 
+ 1. Collecting pair images using CARLA Simulator
+ 2. Move to Disentanglement_VAE
+ 3. Modify the database path variables (train_pair, eval_pair) in train_CycleVAE_lusr_v2.py
+ 4. Run below command
 ```
-code blocks for commands
+python train_CycleVAE_lusr_v2.py --id="ID for this training"
 ```
+ 5. The trained weights are saved at save_models/id/id.pth
 
-## Help
+* Second Stage: 
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
