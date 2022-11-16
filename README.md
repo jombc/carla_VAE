@@ -42,4 +42,4 @@ python train_CycleVAE_lusr_v2.py --id="ID for this training"
 ```
 python main.py --id="ID for this training" --train-dir="Training Dataset Path" --eval-dir="Evaluating Dataset Path" --vae-model-dir="Weight path trained by train_CycleVAE_lusr_v2.py"
 ```
-4. Evaluating using CARLA benchmark
+4. Evaluating using the CARLA benchmark
