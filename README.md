@@ -33,7 +33,7 @@ This repository contains the following modules
 ```
 python train_CycleVAE_lusr_v2.py --id="ID for this training"
 ```
- (Download a pre-trained weight file from [here](https://drive.google.com/file/d/1RtiwGAgRMl5Lpd5fyAA7cQbODWOIBqD6/view?usp=sharing)
+  (Download a pre-trained weight file from [here](https://drive.google.com/file/d/1RtiwGAgRMl5Lpd5fyAA7cQbODWOIBqD6/view?usp=sharing))
  
  5. The trained weights are saved at save_models/id/id.pth
  
@@ -45,6 +45,6 @@ python train_CycleVAE_lusr_v2.py --id="ID for this training"
 ```
 python main.py --id="ID for this training" --train-dir="Training Dataset Path" --eval-dir="Evaluating Dataset Path" --vae-model-dir="Weight path trained by train_CycleVAE_lusr_v2.py"
 ```
- (Download a pre-trained weight file from [here](https://drive.google.com/file/d/1yHsSwZA1gGw0iHow4aDhrt3bTaExgfzN/view?usp=sharing)
+  (Download a pre-trained weight file from [here](https://drive.google.com/file/d/1yHsSwZA1gGw0iHow4aDhrt3bTaExgfzN/view?usp=sharing))
  
 4. Evaluating using the CARLA benchmark
