@@ -6,25 +6,16 @@ The framework has two sub-modules
                                   domain-general feature, and conditional imitation learning.
 
 
-# CARLA 0.8 Original carla_VAE
-
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
 ## Getting Started
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
+* Major dependencies
+ 1. Python 3.7
+ 2. Pytorch 1.6
+ 3. cuda 10.2
+ 
 ### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Recommend importing an exported Anaconda environment (torch.yaml)
 
 ### Executing program
 
