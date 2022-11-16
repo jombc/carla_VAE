@@ -163,15 +163,6 @@ def main():
             output_log("=> no checkpoint found at '{}'".format(args.resume),logging)
 
     cudnn.benchmark = True
-
-    # train_pair = ["/SSD2/datasets/carla/pair_db/no_obj_datas_210605/gen_data_W1_noobj/",
-    #               "/SSD2/datasets/carla/pair_db/no_obj_datas_210605/gen_data_W3_noobj/",
-    #               "/SSD2/datasets/carla/pair_db/no_obj_datas_210605/gen_data_W6_noobj/",
-    #               "/SSD2/datasets/carla/pair_db/no_obj_datas_210605/gen_data_W8_noobj/"]
-    # eval_pair = ["/SSD2/datasets/carla/pair_db/no_obj_datas_210605/gen_data_W1_noobj/",
-    #               "/SSD2/datasets/carla/pair_db/no_obj_datas_210605/gen_data_W3_noobj/",
-    #               "/SSD2/datasets/carla/pair_db/no_obj_datas_210605/gen_data_W6_noobj/",
-    #               "/SSD2/datasets/carla/pair_db/no_obj_datas_210605/gen_data_W8_noobj/"]
     train_pair = ["/SSD2/datasets/carla/pair_db_sampling/gen_data_pair_W1/",
                   "/SSD2/datasets/carla/pair_db_sampling/gen_data_pair_W3/",
                   "/SSD2/datasets/carla/pair_db_sampling/gen_data_pair_W6/",
