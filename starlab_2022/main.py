@@ -42,9 +42,7 @@ parser.add_argument('--batch_size', default=1, type=int, metavar='N',
 parser.add_argument('--speed_weight', default=0.5, type=float, help='speed weight')
 parser.add_argument('--branch-weight', default=1, type=float, help='branch weight')
 parser.add_argument('--id', default="training", type=str)
-# parser.add_argument('--train-dir', default="/SSD1/datasets/carla/collected_datas_210621/gen_data_simple/",
-#                     type=str, metavar='PATH', help='training dataset')
-parser.add_argument('--train-dir', default="/SSD3/dataset/carla/gen_data_simple/",
+parser.add_argument('--train-dir', default="/SSD1/datasets/carla/collected_datas_210621/gen_data_simple/",
                     type=str, metavar='PATH', help='training dataset')
 parser.add_argument('--eval-dir', default="/SSD1/datasets/carla/collected_datas_210621/gen_data_simple_val/",
                     type=str, metavar='PATH', help='evaluation dataset')
